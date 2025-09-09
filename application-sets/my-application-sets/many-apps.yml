@@ -6,7 +6,7 @@ metadata:
 spec:
   generators:
   - git:
-      repoURL: https://github.com/codefresh-contrib/gitops-cert-level-2-examples.git
+      repoURL: https://github.com/todaywasawesome/gitops-cert-level-2-examples.git
       revision: HEAD
       directories:
       - path: application-sets/example-apps/*
@@ -19,7 +19,7 @@ spec:
 
       # Source of the application manifests
       source:
-        repoURL: https://github.com/codefresh-contrib/gitops-cert-level-2-examples.git
+        repoURL: https://github.com/todaywasawesome/gitops-cert-level-2-examples.git
         targetRevision: HEAD
         path: '{{path}}'
       
